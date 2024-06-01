@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    background-color: black; 
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	padding: 0; 
+}
+
+h1#head { 
+    font-size: 50px;
+    font-family: Cursive;
+    color: #efd033;
+}
+
+h1#result {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 3px solid dodgerblue; 
+    background-color: #f5f5dc;
+    text-align: center;
+	/* Added to join the canvases after we created the red strike throughts */
+	display: block;
+	float: left;
+}
+
+#game {
+    position: relative;
+    width: 650px; 
+    height: 322px;
+    margin: 0 auto;
+}
+
+#tic {
+    position: relative;
+    margin: 0 auto;
+    width: 318px;
+    height: 318px;
+    display: inline-block;
+    float: left;
+	border: 3px solid dodgerblue; 
+}
+
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+p {
+    font-size: 26px;
+    margin: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+button {
+    margin-top: 25px; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: limegreen;
+    color: gold;
+    border: 1px solid black; 
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+}
+
+canvas:hover {
+    background-color: lightblue;
+}
+
+button:hover {
+    background: green;
+}
